@@ -2,7 +2,7 @@
 
 ## 0.3.1
 
-- Clarified acknowledgments for design approval and AI development support.
+- Clarified acknowledgments for design and approval, and AI development support.
 - Credited Google Gemini for ideation and design discussions, correcting the earlier Gemma model acknowledgment.
 - Added an acknowledgment for development support from OpenAI Codex.
 - Listed publicly on the Visual Studio Marketplace, with links to the source, the issues and the website.

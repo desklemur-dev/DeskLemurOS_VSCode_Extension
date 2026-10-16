@@ -32,7 +32,7 @@ setting (default `http://127.0.0.1:8000`).
 
 ## Acknowledgments
 
-Design approval: **desklemur-dev**.
+Design & approval: **desklemur-dev**.
 
 Development support (ideation, design, and coding):
 **OpenAI Codex** and **Anthropic Claude**.
