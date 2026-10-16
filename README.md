@@ -34,9 +34,7 @@ setting (default `http://127.0.0.1:8000`).
 
 Development support: **OpenAI Codex**.
 
-Model acknowledgment: thanks to **Google DeepMind** for
-[Gemma 4 26B A4B](https://ai.google.dev/gemma/docs/core/model_card_4), used in DeskLemurOS local-agent development and
-testing.
+Ideation and design discussions: **Google Gemini**.
 
 ## License
 
