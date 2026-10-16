@@ -1,0 +1,78 @@
+{
+  "name": "desklemuros-agents",
+  "displayName": "DeskLemurOS Agents",
+  "description": "Your DeskLemurOS agents in VS Code's chat model picker. Each request runs the agent's own turn in DeskLemurOS, under its guardrails.",
+  "publisher": "desklemuros-dev",
+  "version": "0.3.1",
+  "license": "(MIT OR Apache-2.0)",
+  "icon": "icon.png",
+  "homepage": "https://desklemur.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desklemur-dev/DeskLemurOS_VSCode_Extension"
+  },
+  "bugs": {
+    "url": "https://github.com/desklemur-dev/DeskLemurOS_VSCode_Extension/issues"
+  },
+  "keywords": [
+    "desklemuros",
+    "agents",
+    "local llm",
+    "mcp",
+    "language model",
+    "guardrails"
+  ],
+  "galleryBanner": {
+    "color": "#1d1712",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "AI",
+    "Chat"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "languageModelChatProviders": [
+      {
+        "vendor": "desklemuros",
+        "displayName": "DeskLemurOS"
+      }
+    ],
+    "commands": [
+      {
+        "command": "desklemuros.connect",
+        "title": "DeskLemurOS: Connect"
+      },
+      {
+        "command": "desklemuros.setToken",
+        "title": "DeskLemurOS: Set Access Token"
+      },
+      {
+        "command": "desklemuros.refreshAgents",
+        "title": "DeskLemurOS: Refresh Agents"
+      }
+    ],
+    "configuration": {
+      "title": "DeskLemurOS",
+      "properties": {
+        "desklemuros.endpoint": {
+          "type": "string",
+          "default": "http://127.0.0.1:8000",
+          "description": "DeskLemurOS's local API address (Settings > System > CLI / HTTP API Port)."
+        }
+      }
+    },
+    "mcpServerDefinitionProviders": [
+      {
+        "id": "desklemuros",
+        "label": "DeskLemurOS"
+      }
+    ]
+  }
+}
