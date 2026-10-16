@@ -30,6 +30,10 @@ The same connection registers DeskLemurOS's MCP server (`ask_agent` and the rest
 **DeskLemurOS: Set Access Token** remains for pasting a token by hand. The API address is the `desklemuros.endpoint`
 setting (default `http://127.0.0.1:8000`).
 
+## Acknowledgments
+
+Development support: **OpenAI Codex**.
+
 ## License
 
 MIT OR Apache-2.0, at your option (LICENSE-MIT, LICENSE-APACHE). Home page: https://desklemur.com

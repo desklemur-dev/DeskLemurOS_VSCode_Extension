@@ -2,6 +2,7 @@
 
 ## 0.3.1
 
+- Added an acknowledgment for development support from OpenAI Codex.
 - Listed publicly on the Visual Studio Marketplace, with links to the source, the issues and the website.
 - Setup names DeskLemurOS's Easy Setup, which installs and connects the extension for you.
 
