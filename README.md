@@ -32,7 +32,10 @@ setting (default `http://127.0.0.1:8000`).
 
 ## Acknowledgments
 
-Development support: **OpenAI Codex**.
+Design approval: **desklemur-dev**.
+
+Development support (ideation, design, and coding):
+**OpenAI Codex** and **Anthropic Claude**.
 
 Ideation and design discussions: **Google Gemini**.
 
